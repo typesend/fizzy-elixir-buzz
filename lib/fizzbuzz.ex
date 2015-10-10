@@ -16,7 +16,7 @@ defmodule Fizzbuzz do
   @doc """
   A convenient guard clause macro for the buzz rule
   ## Examples
-      def result(n) when 0 == rem(n, 5) and is_buzz(n), do: "FizzBuzz"
+      def result(n) when 0 == rem(n, 3) and is_buzz(n), do: "FizzBuzz"
       def result(n) when is_buzz(n), do: "Buzz"
   """
   defmacro is_buzz(n) do
