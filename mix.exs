@@ -3,6 +3,9 @@ defmodule Fizzbuzz.Mixfile do
 
   def project do
     [app: :fizzbuzz,
+     name: "fizzy-elixir-buzz",
+     source_url: "https://github.com/typesend/fizzy-elixir-buzz",
+     homepage_url: "https://github.com/typesend/fizzy-elixir-buzz",
      version: "0.0.1",
      elixir: "~> 1.1",
      build_embedded: Mix.env == :prod,
@@ -27,6 +30,7 @@ defmodule Fizzbuzz.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:earmark, "~> 0.1", only: :dev},
+     {:ex_doc, "~> 0.10", only: :dev}]
   end
 end

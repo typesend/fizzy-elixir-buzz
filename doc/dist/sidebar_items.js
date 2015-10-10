@@ -1,0 +1,1 @@
+sidebarNodes={"exceptions":[],"extras":[{"id":"extra-api-reference","title":"API Reference","headers":[]}],"modules":[{"id":"Fizzbuzz","title":"Fizzbuzz","functions":[{"id":"result/1","anchor":"result/1"}],"macros":[{"id":"is_buzz/1","anchor":"is_buzz/1"},{"id":"is_fizz/1","anchor":"is_fizz/1"}]}],"protocols":[]}
